@@ -1,0 +1,42 @@
+{
+  "name": "aspartame-ai",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gsymmy30/aspartame-ai.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gsymmy30/aspartame-ai/issues"
+  },
+  "homepage": "https://github.com/gsymmy30/aspartame-ai#readme",
+  "description": "",
+  "dependencies": {
+    "@langchain/openai": "^0.5.13",
+    "axios": "^1.10.0",
+    "dotenv": "^16.5.0",
+    "langchain": "^0.3.28",
+    "next": "^14.0.0",
+    "openai": "^5.5.1",
+    "p-limit": "^6.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-markdown": "^10.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
